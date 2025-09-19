@@ -59,3 +59,30 @@
 * Reduced manual intervensions : once setup batch jobs can run automatically, minimizing human involvement and freeing up time for other tasks.
 * Resourse optimizations : Because data is processed inbulk, it's often more CPU and memory efficient, especially when operations are predictable.
 * Consistency and standardization : Ideal for applying the same transformation or logic across a dataset, which supports data consistency across the board.
+
+## Limitations Of Batch processing 
+
+* Delayed results
+* Resource spikes
+* Complex debugging
+* Limited fluxibility
+* Data staleness
+
+## Batch processing architecture
+
+![fedc67de-101f-4272-a7e0-f8cc5b884d3c](https://github.com/user-attachments/assets/d3b01558-8e4d-4fd2-8639-38933ceaa9cd)
+
+## Common batch processing tools
+
+* Apache Spark (batch mode)
+* Apache Hadoop
+* Talend
+* AWS Glue
+* Google Dataflow (batch mode)
+* Asure Data factory
+
+## Steam processing
+* Continuous and real time processing of data as it flows in one record or event at a time there is no delay between data arrival and processing.
+* Data ingestion
+* Real time processing
+* Output Delivery  
