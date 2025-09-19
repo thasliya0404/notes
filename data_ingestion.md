@@ -83,6 +83,20 @@
 
 ## Steam processing
 * Continuous and real time processing of data as it flows in one record or event at a time there is no delay between data arrival and processing.
-* Data ingestion
-* Real time processing
-* Output Delivery  
+* Data ingestion : Data is continuously ingested from sources like Kafka, sensors, logs, APIs.
+* Real time processing : Each event is processed as it arrives (e.g., filtering, aggregating, joining).
+* Output Delivery : Results are pushed immediately to databases, dashboards, alerting systems, or APIs.
+
+## Sream processing architecture
+
+![0794fad8-e585-4ea3-826b-6491481e4680](https://github.com/user-attachments/assets/1ceac3a0-2b17-477b-8a8c-40f3ed86f869)
+
+## Characteristics
+
+* Feature : Description.
+* Latency : Very low - near real time.
+* Data size : Designed for ongoing, unbounded streams of data.
+* Processing : Pre record or small time windows.
+* Use case : Real time insights, monitoring, alerting.
+* Fault Tolerance : Manage via checkpoints and windowing.
+* Cost : More compute- intensive, potentially higher cost.
