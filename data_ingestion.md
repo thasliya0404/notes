@@ -85,11 +85,8 @@
 * Continuous and real time processing of data as it flows in one record or event at a time there is no delay between data arrival and processing.
 * Data ingestion : Data is continuously ingested from sources like Kafka, sensors, logs, APIs.
 * Real time processing : Each event is processed as it arrives (e.g., filtering, aggregating, joining).
-* Output Delivery : Results are pushed immediately to databases, dashboards, alerting systems, or APIs.
+* Delivery : Results are pushed immediately to databases, dashboards, alerting systems, or APIs.
 
-## Sream processing architecture
-
-![0794fad8-e585-4ea3-826b-6491481e4680](https://github.com/user-attachments/assets/1ceac3a0-2b17-477b-8a8c-40f3ed86f869)
 
 ## Characteristics
 
@@ -100,3 +97,31 @@
 * Use case : Real time insights, monitoring, alerting.
 * Fault Tolerance : Manage via checkpoints and windowing.
 * Cost : More compute- intensive, potentially higher cost.
+
+## Examples
+
+* Fraud detection in banking
+* real time ride matching (uber,ola)
+* real time analytics for ecommerce
+* social media feeds and notifications
+* log monitoring and alerting
+* online gaming leader boards
+* stock marlet data and alerts
+* video live streaming analytics
+* smart traffic systems
+
+## Advantages
+
+* Data handled as a continuous, unbounded flow.
+* Processing is real-time; insights delivered instantly.
+* Essential for instant decision-making, such as real-time recommendations.
+* Demands high-availability, always-on infrastructure.
+* Errors and anomalies detected as they occur, enabling immediate action.
+
+
+## Sream processing architecture
+
+
+![0794fad8-e585-4ea3-826b-6491481e4680](https://github.com/user-attachments/assets/1ceac3a0-2b17-477b-8a8c-40f3ed86f869)
+
+![0d03b13a-519e-4965-a2c6-88cddc9b9745](https://github.com/user-attachments/assets/62464f42-0389-44d7-a2b9-ed3f94d03618)
