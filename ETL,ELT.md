@@ -132,6 +132,21 @@ Transformations are executed inside the data warehouse using its processing powe
 ## Purpose:
 * Designed for day-to-day operations (e.g., banking transactions, retail sales, reservations).
 
+# OLAP
+
+## Characteristics:
+
+* Focus: Complex SELECT queries and aggregations.
+* Data Model: Highly denormalized (optimized for query performance).
+* Users: Fewer, but highly analytical users (e.g., business analysts, data scientists).
+* Data: Historical, summarized, multi-dimensional data.
+* 
+## Example:
+* Sales trend analysis, customer behavior reports, financial forecasting
+
+## Purpose:
+* Supports decision-making and analysis (not day-to-day transactions).
+
 
 
 
