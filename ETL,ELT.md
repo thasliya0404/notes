@@ -148,14 +148,34 @@ Transformations are executed inside the data warehouse using its processing powe
 * Supports decision-making and analysis (not day-to-day transactions).
 
 
+# OLAP operations
+## 1. Roll-up
+* Aggregates data by climbing up a hierarchy or reducing dimensions.
+* Example: Summarizing sales data from kitchen sales and furniture into home appliances
+
+## 2. Drill-down
+* Opposite of roll-up; it increases detail by descending a hierarchy or adding dimensions.
+* Example: Breaking down yearly sales into quarterly or monthly figures.
+
+## 3. Slice
+* Selects a single dimension from the cube, creating a sub-cube.
+* Example: Viewing sales data for Q1 across all regions and products.
 
 
+## 4. Dice
+* Selects two or more dimensions to create a more specific sub-cube.
+* Example: Filtering data in Q1 and Q2
 
+## 5. Pivot (Rotate)
+* Reorients the data view to gain new perspectives.
+* Example: Switching rows and columns to compare product sales across regions.
 
+## OLAP Vs OLTP
+![capture 17](https://github.com/user-attachments/assets/2ce7e73d-4b7c-4415-a79f-429c34bc0190)
 
-
-
-
-
-
+## CONCLUSION
+* Data warehousing is about storing data for analysis.
+* OLTP is for transactions, while OLAP is for analytics.
+* Dimensional modeling is the best practice for designing data warehouses, using fact tables for metrics and dimension tables for context.
+* OLAP operations are the tools used to interact with the data warehouse for powerful business insights.
 
